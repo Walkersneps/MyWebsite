@@ -777,10 +777,10 @@ button:disabled,
 
 body.is-loading #main {
   opacity: 0;
-  -moz-transform: rotateX(15deg);
-  -webkit-transform: rotateX(15deg);
-  -ms-transform: rotateX(15deg);
-  transform: rotateX(15deg);
+  -moz-transform: rotateX(120deg);
+  -webkit-transform: rotateX(120deg);
+  -ms-transform: rotateX(120deg);
+  transform: rotateX(120deg);
 }
 
 
@@ -1032,4 +1032,11 @@ code {
 .purple-link:hover {
   text-decoration: underline;
   color: #5B3B96;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
