@@ -18,12 +18,30 @@
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
   </head>
 
-  <body>
 
     <h1>Welcome mobile user!</h1>
     
     <p>Mobile user recognition works! Yay!</p>
 
+      <!-- FOOTER -->
+      <footer id="footer">
+        <ul class="copyright">
+          <li>&copy; Walter Carli 2016 <i class="fa fa-arrow-circle-down fa-spin fa-lg fa-fw margin-bottom"></i></li>
+          <li>You're on mobile mode</li>
+          <li><a href="../../index.html" class="purple-link">Desktop site</a></li>
+          <li><a href="#thanks-popup" class="purple-link">Thanks</a></li>
+        </ul>
+      </footer>
+    </div>
+
+
+
+    <script>
+      if ('addEventListener' in window) {
+      window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+      document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : ''); }
+
+    </script>
 
 
 
