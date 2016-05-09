@@ -1,4 +1,5 @@
 #TODO LIST:
 
-- [ ] Clicking on avatar leads to homepage
-- [ ] Fix title in mobile projects and contacts
+- [x] Clicking on avatar leads to homepage
+- [ ] Footer items are purple --> white
+- [x] Fix title in mobile projects and contacts
