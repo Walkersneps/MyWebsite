@@ -13,3 +13,23 @@ body.cool-background {
   background-position: top left,		center center,		bottom center;
   background-attachment: fixed,			fixed,				fixed;
 }
+
+body.cool-background-allpurple {
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(197, 114, 205, 0.9) 5%, rgba(197, 114, 205, 0.35)), url("../refs/background-main.jpg");
+  background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(197, 114, 205, 0.9) 5%, rgba(197, 114, 205, 0.35)), url("../refs/background-main.jpg");
+  background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(197, 114, 205, 0.9) 5%, rgba(197, 114, 205, 0.35), url("../refs/background-main.jpg");
+  background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(197, 114, 205, 0.9) 5%, rgba(197, 114, 205, 0.35)), url("../refs/background-main.jpg");
+  background-repeat: repeat,			no-repeat,			no-repeat;
+  background-size: 100px 100px, cover,				cover;
+  background-position: top left,		center center,		bottom center;
+  background-attachment: fixed,			fixed,				fixed;
+}
+
+.horizontal-centered {
+   width: Xu;
+   position: absolute;
+   left: 50%;
+   margin-left: -(X/2)u;
+}
