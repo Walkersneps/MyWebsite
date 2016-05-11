@@ -1,7 +1,7 @@
 #TODO LIST:
 
 - [ ] Fix fonts!!
-- [x] Move spinning arrow in footer to its own <li>
+- [x] Move spinning arrow in footer to its own `<li>`
 - [x] Add appropriate thanks page for mobile
 - [x] Footer items are purple --> white
 - [x] Clicking on avatar leads to homepage
