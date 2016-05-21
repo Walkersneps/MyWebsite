@@ -1,8 +1,8 @@
 #TODO LIST:
 
 - [ ] Fix fonts!!
-- [ ] Use little avatr logo in mobile pages
 - [ ] Fix links in 404.html
+- [x] Use little avatar logo in mobile pages
 - [x] Move spinning arrow in footer to its own `<li>`
 - [x] Add appropriate thanks page for mobile
 - [x] Footer items are purple --> white
