@@ -800,6 +800,7 @@ body.is-loading #main {
 #footer .copyright {
   margin: 0;
   padding: 0;
+  font-family: "Amatic SC";
   font-size: 0.9em;
   list-style: none;
 }
