@@ -1041,12 +1041,19 @@ code {
   margin-left: auto;
 }
 
+
+/* MY STYLES */
+
 .font-marker {
-  font-family: "Permanent Marker", Helvetica;
+  font-family: "Permanent Marker";
 }
 
 .centered {
   text-align: center;
+}
+
+.font-amatic {
+  font-family: "Amatic SC";
 }
 
 ul.centered-items {
