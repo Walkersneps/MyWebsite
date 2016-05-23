@@ -1048,3 +1048,9 @@ code {
 .centered {
   text-align: center;
 }
+
+ul.centered-items {
+  list-style-type: none;
+  width: auto;
+  margin: auto;
+}
