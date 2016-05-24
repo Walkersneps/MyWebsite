@@ -1,7 +1,7 @@
 #TODO LIST:
 
-- [ ] Fix fonts!! --> DOING NOW
 - [ ] Fix links in 404.html
+- [x] Fix fonts!!
 - [x] Use little avatar logo in mobile pages
 - [x] Move spinning arrow in footer to its own `<li>`
 - [x] Add appropriate thanks page for mobile
