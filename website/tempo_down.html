@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta    charset="UTF-8" />
+  <title>Temporarily down</title>
+  <style>
+    body {
+      margin: 100px;
+      font-family:courier new;
+    }
+    p, ul {
+      margin-top:40px;
+    }
+    .no {
+      text-decoration: line-through;
+    }
+    .yes {
+      font-weight:bold;
+      text-decoration: underline;
+    }
+    #hi-there {
+      margin-top:40px;
+      color:#999;
+      font-size:22px;
+    }
+    #hi-there span {
+      width:14px;
+      display:inline-block;
+    }
+    #hi-there .cK {
+      color:#eee;
+      background-color:#fff;
+    }
+    #hi-there .c2 {
+      color:#57bad8;
+    }
+    #hi-there .c3 {
+      color:#57cfd8;
+    }
+    #hi-there .c4 {
+      color:#57ffd8;
+    }
+    #hi-there .c6 {
+      color:#f00;
+    }
+  </style>
+</head>
+<body>
+
+  <p>
+    Hi there. Bear with us, as we're:
+  </p>
+
+  <ul>
+    <li>rebooting our <b>web server</b></li>
+  </ul>
+
+  <p>
+    Expected downtime:
+      <span class="yes">seconds</span>
+      <span class="no">minutes</span>
+      <span class="no">hours</span>
+      <span class="no">days</span>
+      <span class="no">eternal</span>
+
+  </p>
+
+<div id="hi-there">
+
+</div>
+
+<script>
+  //
+  // Herein we use your browser to entertain and distract you while we scramble
+  // to fix the site.
+  //
+  var what_am_i_doing_with_my_life = eval('Date.now();');
+  var IT_IS_ACTUALLY_PRONOUNCED_NACKLE = 25;
+  var so_youre_telling_me_theres_a_chance = 0.01;
+  var large_and_moving_dozen = 12;
+  var zerocoin = [];
+  var zerocash = zerocoin;
+  var a1 = 'WAL TER '.split('');
+  var a2 = 'W41 73r5 '.split('');
+  var should_i_call_her = Date.now();
+
+  $$$$$ = function(val) {
+    return ((~~((Date.now() - should_i_call_her) / 100) % 15) == ~~(val * 255)%15) ? a2 : a1;
+  }
+
+  reverse_pickpocket = function (val) { // given val in 0...1
+    var a = $$$$$(val);
+    return a[~~(val * a.length)];
+  }
+
+  suffer_without_objection = function() {
+    for (var y = 0; y < large_and_moving_dozen; y++) {
+      zerocash[y] = [];
+      for (var x = 0; x < IT_IS_ACTUALLY_PRONOUNCED_NACKLE; x++) {
+        zerocash[y][x] = 0;
+      }
+    }
+  }
+
+  show_hn = function() {
+    var dt    = (Date.now() - what_am_i_doing_with_my_life) / 1000 * so_youre_telling_me_theres_a_chance;
+    var res   = ''
+    what_am_i_doing_with_my_life  = Date.now();
+    for (var y = 0; y < large_and_moving_dozen; y++) {
+      for (var x = 0; x < IT_IS_ACTUALLY_PRONOUNCED_NACKLE; x++) {
+        var xf    = x / IT_IS_ACTUALLY_PRONOUNCED_NACKLE;
+        var yf    = y / large_and_moving_dozen;
+        var speed = Math.sqrt((xf * xf + yf * Math.sin(yf))+4);
+        zerocash[y][x] = (zerocash[y][x] + speed * dt) % 1;
+        var c = reverse_pickpocket(zerocash[y][x]);
+        res += "<span class='c"+c+"'>" + c + "</span>";
+      }
+      res += '<br>';
+    }
+    document.getElementById('hi-there').innerHTML = res;
+    setTimeout(show_hn, 20);
+  }
+  suffer_without_objection();
+  show_hn();
+</script>
+
+</body>
+</html>
