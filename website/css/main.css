@@ -964,7 +964,10 @@ code {
 .modal-dialog {
   background: #fefefe;
   /* border: #414f57 solid 1px; */
-  border-radius: 8px;
+  /*border-radius: 8px;*/
+  border-radius: 15px 70px;
+  /*border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 15px;*/
   margin-left: -300px;
   position: fixed;
   left: 50%;
@@ -993,8 +996,8 @@ code {
 .modal-header {
   border-bottom: #eee solid 1px;
   background-color: #414f57;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 70px;
 }
 
 .modal-header h2 {
@@ -1017,7 +1020,7 @@ code {
   font-size: 30px;
   text-decoration: none;
   position: absolute;
-  right: 5px;
+  right: 25px;
   top: 0;
   line-height: normal;
 }
