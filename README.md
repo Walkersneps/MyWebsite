@@ -1,7 +1,6 @@
-# MyWebsite
-Repo'ing my website
+# Walkersneps's website
+Sources for my website, available at [https://sneps.tk](https://walkersneps.keybase.pub "My website")
 
-&nbsp;
 &nbsp;
 
 #####Thanks to:
