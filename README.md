@@ -1,5 +1,5 @@
 # Walkersneps's website
-Sources for my website, available at [https://sneps.tk](https://walkersneps.keybase.pub "My website")
+Sources for my website, hosted on Github Pages at [http://🚀🎈.tk](http://xn--ck8hp1c.tk "My website"), and on Keybase at [https://walkersneps.keybase.pub](https://walkersneps.keybase.pub "Signed version of my website")
 
 &nbsp;
 
