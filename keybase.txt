@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/walkersneps
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://xn--ck8hp1c.tk
+  * I am walkersneps (https://keybase.io/walkersneps) on keybase.
+  * I have a public key with fingerprint BDFE 7AA9 85BF 4680 7F1D  7201 E722 9A0F 39BC B4C4
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01019c0b2c28f05b33082418c689d733c469cb128e0def9d300053e8519af93ea9cd0a",
+            "fingerprint": "bdfe7aa985bf46807f1d7201e7229a0f39bcb4c4",
+            "host": "keybase.io",
+            "key_id": "e7229a0f39bcb4c4",
+            "kid": "01019c0b2c28f05b33082418c689d733c469cb128e0def9d300053e8519af93ea9cd0a",
+            "uid": "691ebb104331473fae5e5fe299101e00",
+            "username": "walkersneps"
+        },
+        "revoke": {
+            "sig_ids": [
+                "d31b91f3ef78fe063abc3209d4c26bca5b4a508d81edd80152454e0c801f85780f"
+            ]
+        },
+        "service": {
+            "hostname": "xn--ck8hp1c.tk",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1467567358,
+    "expire_in": 157680000,
+    "prev": "4f77c591e232962bb5e74ba6aef3c02053d87894773aa97a6f4ab741df1aa4aa",
+    "seqno": 34,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMJ8AnicrZJfbBRFHMevxZbrqQgmUALBmtFiJUed2ZnZmTlMQBKjYE1ATCD88ZyZ
+nWnXK7vn7V5tgxA0iiGamLS1DxICGhLDgzyAEV4kSGiKKcZExKioD5piggQVE/40
+oM5e8M1H92V3Zr+/7++T7+936u4ZuULTo3/wLRefe2h50+Sn1+u59UM9f20DKg6G
+QGkbqJjGy/QHJknLlTAAJQARREJD5WmPW0gVxpB7BHHtcxEwjDXxhVbI4wYGxooA
+QwgpNpwiIa3ARgodQAmKwIZRr6lVa2GUOlsVWMOkFJwqS3wOmUUB8yAyzPOEhBYL
+pRXRxBX2xUlW4eCUTEx3GLs7dyg38P5D/z9z1xt2vkBGKQQJxogwbKWhhlrjCeH6
+GAgzYWJqkdxqnPol2V8xtSQy1QRsL4KaGYgrJos2CXsddwJKm0CAkRLIYmMZtwb6
+WCqNPSgCoj1faUkVkRTygCMTBBwi6hFKDNTu03LKOLRgi/N2TQdC3TDPgroNMBgt
+XaorvK+KdHdacXDVWpzGOu53//rStFrKsNKhagPWqPJtl7IKo8DNyRUMOP4wjkAJ
+OaVOw8wWEZ9Rn2HKi8AMVsOaKYeZgjI3QfdkbcyAsySWMU1dZB72hO8pRQ0jSvrS
+WKyh54IOOOOCMIbdDjDpWyIVIyiwSEois9gT82IUgxImjlP2Ok8XXSTTes2A7SdP
+bL4j11TItbY0ZwucK7TN/netO7/P514rLFZND94fvr1z187hm60b7xt7a33r6JdP
+r1qWnxj7eOTsJ6vnfvTAxPUdX3fHH9xsO9Y1Mv/XDn/PyMJzPd+0j4wu2HHuchGf
+ptMXri6aWHnnnyefQe/uLs+M67du7AHL3uw6PL610K6GNz7SdnBRYfDWrt1X9q+c
+7j7Sc+Od86+Pn7kw657zHUfE8fePNl8e/3FT11Nv7P/7h4vVVb9diff+vOFax5Jf
+4vZXDx29tKFlyU/7VkyuKbasebxzlp3K847Tc7568sDsx/be++E18N4rU8svXd08
+f23nXc1PfP7w8/Nypd+7Ti048F397Au4eXLd2Lcr5vVOfvbymfzCZ1sOzpj4YvVc
+OTy9bk6ejU4l/wDxLVSQ
+=Rgh3
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/walkersneps
+
+==================================================================
