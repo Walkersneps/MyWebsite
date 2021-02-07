@@ -4,21 +4,75 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Walkersneps &middot; Redirecting you!</title>
+    <title>Walkersneps &middot; Welcome!</title>
 
-    <!-- Redirect user to adequate version -->
-    <script type="text/javascript">
-      if (screen.width <= 699) {
-      document.location = "website/mobile/index.mobi.html";
-
-    } else {
-      document.location = "website/home.html"
-    }
-    </script>
-
+    <link rel="stylesheet" href="website/css/main.css" />
   </head>
 
-  <body>
+
+  <body class="is-loading">
+
+    <!-- Main Body -->
+    <div id="wrapper">
+      <section id="main">
+
+        <!-- Header (contains avatar, name, epithet) -->
+        <header>
+          <span class="avatar"> <!-- avatar -->
+            <a href="index.html">
+              <img src="website/refs/treVele-min.jpeg" alt="" />
+            </a>
+          </span>
+          <h1>Walter Carli</h1> <!-- name -->
+          <p>Just a random boy</p> <!-- epithet -->
+        </header>
+
+        <ul class="icons">
+          <li><a href="https://keybase.io/walkersneps" class="fa fa-key" target="_blank">Keybase</a></li>
+          <li><a href="https://github.com/Walkersneps" class="fa fa-github github" target="_blank">Github</a></li>
+          <li><a href="mailto:walter@sneps.xyz" class="fa fa-envelope">Email</a></li>
+        </ul>
+
+        <hr /> <!-- change the theme -->
+
+        <dl id="fingerprints">
+          <dt><a href="website/projects.html"><i class="fa fa-folder-open" aria-hidden="true"></i></a></dt>
+          <dd><a href="website/projects.html"><code>PROJECTS</code></a></dd>
+
+          <dt><a href="website/contacts.html"><i class="fa fa-comments-o fa-lg" aria-hidden="true"></i></a></dt>
+          <dd><a href="website/contacts.html"><code>CONTACT ME</code></a></dd>
+
+          <dt><a href="https://keybase.io/walkersneps/key.asc"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></a></dt>
+          <dd><a href="https://keybase.io/walkersneps/key.asc"><code>PGP KEY</code></a></dd>
+
+        </dl>
+      </section>
+
+
+
+      <!-- FOOTER -->
+      <footer id="footer">
+        <ul class="copyright">
+          <li><i class="fa fa-arrow-circle-down fa-spin fa-lg fa-fw margin-bottom"></i></li>
+          <li>&copy; Walter Carli 2016-2023</li>
+          <li><i class="fa fa-arrow-circle-down fa-spin fa-lg fa-fw margin-bottom"></i></li>
+        </ul>
+      </footer>
+
+    </div>
+
+
+
+    <script>
+      if ('addEventListener' in window) {
+      window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+      document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : ''); }
+
+    </script>
+
+
+
+
   </body>
 
 
